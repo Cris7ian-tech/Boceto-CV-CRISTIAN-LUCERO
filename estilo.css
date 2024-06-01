@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 
@@ -66,11 +66,13 @@ main{
 article {
     text-align: center;
     font-size: 16px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
-.btns button {
+.descargar {
+    background: rgb(54, 27, 188);
     padding: 10px 20px;
+    text-decoration: none;
     margin: 0 20px;
     background-color: rgb(54, 27, 188);
     border: none;
@@ -79,10 +81,11 @@ article {
     box-shadow: 1px 1px 12px #5555;
 }
 
-.btns button:hover {
+.descargar:hover {
     color: #ffffff;
     background-color: rgb(86, 138, 235);
 }
+
 
 .experiencia h2 {   
     text-align: center;
